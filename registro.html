@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="estilo_registro.css">
+    
+</head>
+<body>
+    <header>
+        <a href="https://www.uleam.edu.ec/"  class="logo">
+            <img src="logouleam.png" alt="Logo Uleam" class="imglogo">
+        </a>
+        <h3 class="titulo">Gestion de inventario Mobiliario</h3>           
+    </header>
+    <form id="loginForm" onsubmit="return validateForm()">
+        <a href="#" onclick="regresar()" class="btn-regresar">Regresar</a>
+        <label for="nombre">Nombre:</label>
+        <input type="text" placeholder="Ingrese su nombre" id="nombre" name="nombre" required>
+        <p class="mensaje-error" id="nameError"></p>
+        
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" placeholder="Ingrese su Correo" id="email" name="email" required>
+        <p class="mensaje-error" id="emailError"></p>
+        
+        <label for="Celular">Numero de celular:</label>
+        <input type="text" placeholder="Ingrse su numero de celular" id="cel" name="cel">
+        <p class="mensaje-error" id="celError"></p>
+
+        <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+        <input type="date" id="fechaNacimiento" name="fechaNacimiento"><br>
+        <p class="mensaje-error" id="fechaNacimientoError"></p>
+        
+        <label for="genero">Género:</label>
+        <select id="genero" name="genero" >
+            <option value="masculino">Masculino</option>
+            <option value="femenino">Femenino</option>
+            <option value="otros">Otros</option>
+        </select><br>
+        <p class="mensaje-error" id="generoError"></p>
+        
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" placeholder="Ingrese su contraseña" id="contrasena" name="contrasena" >
+        <p class="mensaje-error" id="contrasenaError"></p>
+
+
+
+
+        <button type="submit">Registrarse</button>
+        <h5>Ya tienes cuenta? <a href="iniciar_sesion.html">Inicia sesion aqui</a></h5>
+    </form>
+    <footer>
+        <p>© 2023 Miguel Angel Ortega Giler</p>
+    </footer>
+    <script src="registro.js"></script>
+    <script src="regresar.js"></script>
+</body>
+</html>

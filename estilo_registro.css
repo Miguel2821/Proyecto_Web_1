@@ -1,0 +1,103 @@
+header{
+    display: flex;
+    height: 50px;
+    background-color: rgb(237, 114, 48);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+a{
+    text-decoration: none;
+    display: inline;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.imglogo{
+    height: 50px;
+    margin-right: 10px;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin-top: auto;
+}
+form {
+    background-color: #dcdcdc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.form h5{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.form a{
+    font-family: sans-serif;
+    font-size: 13px;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 auto;
+    display: block;
+}
+button:hover {
+    background-color: #45a049;
+}
+
+form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+.mensaje-error{
+    font-size: 14px;
+    color: rgb(197, 62, 62);
+}
+.btn-regresar {
+    padding: 5px 10px;
+    margin-left: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
